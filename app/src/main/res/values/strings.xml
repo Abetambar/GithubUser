@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="name">Nama User</string>
+    <string name="foto_user">Foto User</string>
+    <string name="search_hint">Siapa yang kamu cari ?</string>
+    <string name="username">Username</string>
+    <string name="repository">%s \nRepository</string>
+    <string name="followers">%s \nFollowers</string>
+    <string name="following">%s \nFollowing</string>
+    <string name="github">Logo Github</string>
+    <string name="text_splash_screen">Github User</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="activity_main">Github User Search</string>
+    <string name="activity_detail">Detail User </string>
+    <string name="favorit_user">Favorite User</string>
+    <string name="favorite">Favorite</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme_user">Theme User</string>
+
+</resources>
