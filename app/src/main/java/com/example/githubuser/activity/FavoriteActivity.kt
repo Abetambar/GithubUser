@@ -76,23 +76,4 @@ class FavoriteActivity : AppCompatActivity() {
         return listUsers
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-
-        menuInflater.inflate(R.menu.option_menu, menu)
-        menu.findItem(R.id.favorite_menu).isVisible = false
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId){
-            R.id.setting_menu -> {
-                val mainToSetting = Intent(this, ThemeActivity::class.java)
-                startActivity(mainToSetting)
-            }
-
-        }
-        return super.onOptionsItemSelected(item)
-    }
-
-
 }

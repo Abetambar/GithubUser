@@ -16,6 +16,7 @@
             android:exported="false"
             android:launchMode="singleTop" />
         <activity
+            android:parentActivityName=".activity.MainActivity"
             android:name=".activity.ThemeActivity"
             android:exported="false" />
         <activity
